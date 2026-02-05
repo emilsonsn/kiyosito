@@ -1,0 +1,399 @@
+{
+    "banner": {
+		"builder": true,
+		"no_selection": true,
+		"name": "Banner Section",
+		"content": {
+			"images": {
+				"image": {
+					"size": "1920x1080"
+				}
+			},
+			"heading": "text",
+			"subheading": "text",
+            "phase_content": "text",
+			"button_name": "text",
+			"button_link": "text"
+		}
+	},
+	
+    "roadmap": {
+        "builder": true,
+        "name": "Road Map Section ",
+        "content": {
+            "images":{
+                "image":{
+                    "size":"1800x1200"
+                }
+            },
+            "heading": "text",
+            "subheading": "textarea"
+        },
+        "element": {
+            "date": "text",
+            "title": "text",
+            "text": "textarea",
+            "modal": true
+        }
+    },
+
+    "feature": {
+        "builder": true,
+        "name": "Feature Section",
+        "content": {
+            "heading": "text",
+            "subheading": "text"
+        },
+        "element": {
+            "title": "text",
+            "description": "textarea",
+            "feature_icon": "icon",
+            "images":{
+                "background_image":{
+                    "size":"525x580"
+                }
+            },
+            "modal": true
+        }
+    },
+    
+    "phase": {
+        "builder": true,
+        "name": "ICO Phase Section",
+        "content": {
+            "images":{
+                "background_image":{
+                    "size":"1920x1280"
+                }
+            },
+            "heading": "text",
+            "subheading": "text"
+        }
+    },
+
+    "team_member": {
+        "builder": true,
+        "name": "Team Member Section",
+        "content": {
+            "heading": "text",
+            "subheading": "text"
+        },
+        "element": {
+            "images":{
+                "image":{
+                    "size":"350x330"
+                }
+            },
+            "name": "text",
+            "designation": "text",
+            "modal": true,
+            "profile_link": "text"
+        }
+    },
+
+    "testimonial": {
+        "builder": true,
+        "name": "Testimonial Section",
+        "content": {
+            "images":{
+                "background_image":{
+                    "size":"1920x1280"
+                }
+            },
+            "heading": "text",
+            "subheading": "textarea"
+        },
+        "element": {
+			"images": {
+				"image": {
+					"size": "100x100"
+				}
+
+			},
+			"author": "text",
+			"designation": "text",
+			"quote": "textarea",
+			"modal": true
+		}
+    },
+
+    "about": {
+		"builder": true,
+		"name": "About Section",
+		"content": {
+            "images": {
+                "image": {
+                  "size": "600x515"
+                },
+                "background_image": {
+                  "size": "1920x1280"
+                }
+              },
+            "subheading": "text",
+            "heading": "text",
+			"content": "text",
+            "button_name": "text",
+            "button_link": "text"
+		},
+		"element": {
+			"icon": "icon",
+			"title": "text",
+			"modal": true
+		}
+	},
+	
+    "ico_meaning": {
+        "builder": true,
+        "name": "ICO Meaning Section",
+        "content": {
+            "images":{
+                "background_image":{
+                    "size":"530x585"
+                }
+            },
+            "heading": "text",
+            "description": "textarea",
+            "button_name": "text",
+            "button_link": "text",
+            "video_link": "text"
+        }
+    },
+
+
+    "policy_pages": {
+        "builder": true,
+        "no_selection":true,
+        "name": "Policy Pages",
+        "content":{
+            "images":{
+                "image":{
+                    "size":"1900x1000"
+                }
+            }
+        },
+        "element": {
+            "title": "text",
+            "slug":"title",
+            "details": "textarea-nic",
+            "modal": false,
+            "seo":true
+        }
+    },
+    
+    "register_disable": {
+        "builder": true,
+        "no_selection":true,
+        "name": "Registration Disable",
+        "content": {
+            "images":{
+                "image":{
+                    "size":"280x280"
+                }
+            },
+            "heading": "text",
+            "subheading":"text",
+            "button_name":"text",
+            "button_url":"text"
+        }
+    },
+    
+    "faq": {
+        "builder": true,
+        "name": "FAQ Section",
+        "content": {
+            "heading": "text",
+            "subheading": "text"
+        },
+        "element": {
+            "question": "text",
+            "answer": "textarea",
+            "modal": false
+        }
+    },
+    
+    "blog": {
+      "builder": true,
+      "name": "Blog Section",
+      "content": {
+        "heading": "text",
+        "subheading": "text"
+      },
+      "element": {
+        "images": {
+          "image": {
+            "size": "860x570",
+            "thumb": "430x280"
+          }
+        },
+        "title": "text",
+        "slug": "title",
+        "published_at": "text",
+        "description_nic": "textarea-nic",
+        "modal": false,
+        "seo": true
+      }
+    },
+
+
+    "subscribe": {
+        "builder": true,
+        "name": "Subscribe Section",
+        "content": {
+            "images":{
+                "image":{
+                    "size":"1920x865"
+                }
+            },
+            "heading": "text",
+            "subheading": "text"
+        }
+    },
+
+    "social_icon": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Social Icons Section",
+        "element": {
+            "title": "text",
+            "social_icon": "icon",
+            "url": "text",
+            "modal": true
+        }
+    },
+
+    "contact_us": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Contact Us",
+        "content": {
+            "images":{
+                "background_image":{
+                    "size":"1900x1000"
+                }
+            },
+            "heading": "text",
+            "email" :"text",
+            "phone":"text",
+            "address":"text"
+        }
+
+    },
+    
+    "footer": {
+        "builder": true,
+        "no_selection":true,
+        "name": "Footer Section",
+        "content": {
+            "content": "textarea"
+        }
+    },
+
+    "login": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Login Section",
+        "content": {
+            "images":{
+                "background_image":{
+                    "size":"1900x1000"
+                }
+            },
+            "heading": "text"
+        }
+    },
+    
+    "register": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Register Section",
+        "content": {
+            "images":{
+                "background_image":{
+                    "size":"1900x1000"
+                }
+            },
+            "heading": "text"
+        }
+    },
+
+    "user_page_bg": {
+        "builder": true,
+        "no_selection":true,
+        "name": "User Page Bg Section",
+        "content": {
+            "images":{
+                "background_image":{
+                    "size":"1920x1080"
+                }
+            }
+        }
+    },
+    
+    "account_recovery": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Account Recovery",
+        "content": {
+            "images":{
+                "background_image":{
+                    "size":"1900x1000"
+                }
+            }
+        }
+    },
+    
+    "kyc": {
+        "builder": true,
+        "no_selection": true,
+        "name": "KYC Content",
+        "content": {
+            "required": "text",
+            "pending": "text",
+            "reject": "text"
+        }
+    },
+    
+    "banned": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Banned Page",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "700x400"
+                }
+            },
+            "heading": "text"
+        }
+    },
+    
+    "token_distribution": {
+        "builder": true,
+        "name": "Token Distribution Section",
+        "content": {
+            "heading": "text",
+            "description": "textarea"
+        },
+        "element": {
+            "label": "text",
+            "percentage": "number",
+            "color": "color",
+            "modal": true
+        }
+    },    
+    
+    "fund_allocation": {
+        "builder": true,
+        "name": "Fund Allocation Section",
+        "content": {
+            "heading": "text",
+            "description": "textarea"
+        },
+        "element": {
+            "label": "text",
+            "percentage": "number",
+            "color": "color",
+            "modal": true
+        }    
+    }
+}

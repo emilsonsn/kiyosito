@@ -1,0 +1,8 @@
+<IfModule mod_headers.c>
+  <FilesMatch "\.(json|png|svg)$">
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, OPTIONS"
+    Header set Access-Control-Allow-Headers "Origin, Content-Type, Accept"
+    Header set Access-Control-Max-Age "86400"
+  </FilesMatch>
+</IfModule>
