@@ -8,7 +8,7 @@
 <header class="header">
     <!--@include($activeTemplate . 'partials.top_header')-->
 
-    <div class="header__bottom">
+    <div class="header__bottom" style="padding: 20px;">
         <div class="container">
             <nav class="navbar navbar-expand-xl p-0 align-items-center">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -20,24 +20,6 @@
                         alt="site-logo"></a>
                 <div class="collapse navbar-collapse mt-xl-0 mt-3" id="navbarSupportedContent">
                     <ul class="navbar-nav main-menu m-auto">
-                        <li><a class="{{ menuActive('home') }}" href="{{ route('home') }}">@lang('Home')</a></li>
-                        <li><a class="{{ menuActive(['blogs', 'blog.details']) }}"
-                                href="{{ route('blogs') }}">@lang('Blog')</a>
-                        </li>
-                        @if (@$pages)
-                            @foreach ($pages as $data)
-                                <li>
-                                    <a class="{{ menuActive('pages', null, $data->slug) }}"
-                                        href="{{ route('pages', [$data->slug]) }}"> {{ __($data->name) }}</a>
-                                </li>
-                            @endforeach
-                        @endif
-
-                        @if ($pdfExists)
-                            <li><a href="{{ whitePaperLink() }}" download>@lang('White Paper')</a>
-                            </li>
-                        @endif
-
                         @auth
                             <li class="menu_has_children"><a class="{{ menuActive(['ticket.*']) }}"
                                     href="#0">@lang('Support')</a>
@@ -45,9 +27,6 @@
                                     <li><a href="{{ route('ticket.open') }}">@lang('Open Ticket')</a></li>
                                     <li><a href="{{ route('ticket.index') }}">@lang('My Support Tickets')</a></li>
                                 </ul>
-                            </li>
-                        @else
-                            <li><a class="{{ menuActive('contact') }}" href="{{ route('contact') }}">@lang('Contact Us')</a>
                             </li>
                         @endauth
                         <li>
